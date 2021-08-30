@@ -1,0 +1,35 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test Build Completed! No package was uploaded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vshalson/node-demo.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Viz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vshalson/node-demo/issues"
+  },
+  "homepage": "https://github.com/Vshalson/node-demo#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "jest": "^27.1.0"
+  }
+}
