@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "app.js",
+  "main": "node app.js",
   "scripts": {
     "start": "babel-node ./app.js",
     "test": "jest",
